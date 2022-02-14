@@ -1,0 +1,13 @@
+1.Typescript is a superset of javascript . Means any valid javascript code is also valid Typescript code.
+2.But Typescript has additional features that donot exist in current version of javascript.
+3. Example..,.Strong typing(has to define type with variable),Object-Oriented features added like classes ,interfaces, constructors,public,private modifiers,
+Compile-time errors(easier in fetching the error at compile time),Great tooling ().
+4.Browser doesnot understand Typescript. So we need to compile or transpile into javascript code ,i.e., building a application. Whenever
+we build a application Typescript compiler compile/transpile code into javascript and then browser can run the javascript code.
+5. To install typescript : npm install -g typescript (globally)
+6. tsc --version : to check version of typescript.
+7. Files saved with .ts extension
+8. To transpile file into javascript use: tsc filename.ts
+9. In frameworks  , no need to transpile javascript code explicitly
+10. We can run this code using :node filename.ts
+11. When we transpile typescript code, it makes a separate file for javascript code
